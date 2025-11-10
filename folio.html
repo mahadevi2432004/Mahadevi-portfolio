@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <title>Mahadevi Portfolio</title>
+  <link rel="stylesheet" href="folio.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-text">
+      <p class="tagline" data-aos="fade-up"
+     data-aos-duration="1000">We Design & Build Brands</p>
+      <h2 data-aos="fade-up"
+     data-aos-duration="1000">Hey, I'm <span class="highlight">Mahadevi</span></h2>
+      <p class="typing-text" data-aos="fade-right"
+     data-aos-duration="1000">UI<span id="cursor">|</span></p>
+      <h3 data-aos="fade-up"
+     data-aos-duration="1000">I build responsive & modern websites.</h3>
+      
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1000">
+    <img src="images/gold1.jpg" alt="Mahadevi" class="profile-img" />
+    </div>
+
+     <!-- Hamburger Icon -->
+       <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+ 
+      <!-- Dropdown Menu -->
+        <div class="dropdown">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Projects</a>
+          <a href="#contact">Contact Me</a>
+          <i class="fa-solid fa-xmark cancle" onclick="cancle()"></i>
+        </div> 
+  </header>
+
+   <!-- Navbar -->
+<nav class="navbar" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+    <div class="logo">MyFolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Projects</a></li>
+      <li class="link contact-btn"><a href="#contact">Contact Me</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/mahadevi-ramalakshmi-55957528a"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </nav>
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="about-content">
+      <div data-aos="slide-up" data-aos-duration="1200">
+      <img src="images/violet1.jpg" alt="About" class="about-img" /></div>
+      <div class="about-text" data-aos="slide-up" data-aos-duration="1200">
+        <h2 data-aos="fade-right" data-aos-duration="1200">About Me</h2>
+      <div class="info">
+          <strong>Name:</strong> Mahadevi<br>
+          <strong>Profession:</strong> Front-end Developer & UI/UX Designer
+      </div>
+        <p>I’m an aspiring Frontend Developer with a passion for clean code and thoughtful design. I have hands-on experience with HTML, CSS, JavaScript, and I’m actively building skills in React. I also bring a UI/UX perspective to my work, using tools like Adobe XD and Figma to design wireframes and user flows.<br><br>
+        I’m looking for an opportunity to grow in a collaborative team where I can apply both my coding and design skills to real-world projects.
+
+</p> 
+         <div class="buttons">
+        <button class="btn primary"><a href="https://www.canva.com/design/DAGfiXLnWBk/bSBuI1mVhxjUiSKvJ5-PQA/edit" target="_blank">Resume</a></button>
+        <button class="btn secondary"><a href="https://www.linkedin.com/in/mahadevi-ramalakshmi-55957528a"><i class="fab fa-linkedin-in"></i></a></button>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+  <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">My Skills</h2>
+  
+  <div class="skills-scroll">
+    <div class="skills-track">
+      <div class="skill-card"><img src="images/html.png" /><p>HTML <strong>90%</strong></p></div>
+      <div class="skill-card"><img src="images/css.png" /><p>CSS <strong>85%</strong></p></div>
+      <div class="skill-card"><img src="images/js.png" /><p>JavaScript <strong>75%</strong></p></div>
+      <div class="skill-card"><img src="images/react.png" /><p>React <strong>70%</strong></p></div>
+      <div class="skill-card"><img src="images/figma.png" /><p>Figma <strong>65%</strong></p></div>
+      <div class="skill-card"><img src="images/ph.png" /><p>Photoshop <strong>50%</strong></p></div>
+
+      <!-- Duplicate for seamless looping -->
+      <div class="skill-card"><img src="images/html.png" /><p>HTML <strong>90%</strong></p></div>
+      <div class="skill-card"><img src="images/css.png" /><p>CSS <strong>85%</strong></p></div>
+      <div class="skill-card"><img src="images/js.png" /><p>JavaScript <strong>75%</strong></p></div>
+      <div class="skill-card"><img src="images/react.png" /><p>React <strong>70%</strong></p></div>
+      <div class="skill-card"><img src="images/figma.png" /><p>Figma <strong>65%</strong></p></div>
+      <div class="skill-card"><img src="images/ph.png" /><p>Photoshop <strong>50%</strong></p></div>
+    </div>
+  </div>
+</section>
+
+
+   <!-- Experience Section -->
+<section id="experience">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-right" data-aos-duration="1200">Internship Experience</h2>
+    <p class="section-description" data-aos="slide-up" data-aos-duration="1400">
+      During my internships, I gained hands-on experience in design and development,
+      improving my practical skills through real-world projects and team collaboration.
+    </p>
+
+    <div class="experience-card" data-aos="fade-right" data-aos-duration="1200">
+      <span class="date">04 Sep 2023 – 14 Sep 2023</span>
+      <h3 class="company">Code Bind Technologies, Coimbatore</h3>
+      <h4 class="role">Web Developer</h4>
+      <p class="details">
+        Learned to deploy web applications on cloud platforms, optimize site performance,
+          and implement secure, scalable solutions. Worked with HTML, CSS, JavaScript, and 
+          explored frontend frameworks like React and Vue.js to build dynamic interfaces.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+ <section id="services" class="services" data-aos="slide-up" data-aos-duration="1200">
+  <h2 class="section-title1">My Services</h2>
+    <p class="section-description1">
+      I craft visually appealing and high-performing web solutions using HTML, CSS, JS, and Figma. Additionally, my focus is on delivering clean design and smooth user experiences across all devices.
+    </p>
+  <div class="services-container" data-aos="fade-right" data-aos-duration="1200">
+  <div class="service-box">
+    <div class="icon1"><i class="fa-solid fa-desktop"></i></div>
+    <h3>User Interface Design</h3>
+    <p>UI Designer creates visually appealing, user-friendly interfaces to enhance digital experiences.</p>
+  </div>
+  <div class="service-box">
+    <div class="icon1"><i class="fa-solid fa-laptop"></i></div>
+    <h3>User Experience Designer</h3>
+    <p>UX Designer crafts intuitive, user-friendly digital experiences by optimizing interactions and usability.</p>
+  </div>
+  <div class="service-box">
+    <div class="icon1"><i class="fa-brands fa-android"></i></div>
+    <h3>Figma Tool</h3>
+    <p>Figma is a cloud-based design tool for creating and collaborating on UI/UX designs in real time.</p>
+  </div>
+</div>
+ </section>
+
+<section class="stats" data-aos="slide-up" data-aos-duration="1200">
+  <div class="stat-block">
+    <i class="fa fa-calendar"></i>
+    <h2>2+</h2>
+    <p>Years of Self Learning</p>
+  </div>
+  <div class="stat-block">
+    <i class="fa fa-check"></i>
+    <h2>3+</h2>
+    <p>Completed Projects</p>
+  </div>
+  <div class="stat-block">
+    <i class="fa fa-code"></i>
+      <h2>5+</h2>
+      <p>Technologies Learned</p>
+  </div>
+  <div class="stat-block">
+    <i class="fa fa-clock"></i>
+      <h2>500+</h2>
+      <p>Hours of Coding Practice</p>
+  </div>
+</section>
+
+
+  
+<!-- Portfolio  Section-->
+<section id="portfolio" class="portfolio-section">
+  <div class="container" data-aos="slide-up" data-aos-duration="1200">
+    <h2 class="section-title" >Projects</h2>
+    <p class="section-description">
+    "With expertise in frontend development and UI/UX design, I create digital solutions that are visually appealing, responsive, and user-friendly."
+    </p>
+     <section class="portfolio" data-aos="fade-right" data-aos-duration="1200">
+    <div class="portfolio-grid">
+      <!-- Portfolio Item -->
+      <div class="portfolio-item">
+        <img src="images/digitalclock.png" alt="Project 1">
+        <div class="overlay">
+          <div class="view-project">
+            <p class="view-project-text"><a href="https://lnkd.in/g7FSWJ6y">view project</a></p> 
+          </div>
+          
+          <div class="project-info">
+            <h4>Frontend Project</h4>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more items as needed -->
+    </div>
+    
+    <div class="portfolio-grid">
+      <!-- Portfolio Item -->
+      <div class="portfolio-item">
+        <img src="images/greenify.jpg" alt="Project 1">
+        <div class="overlay">
+          <div class="view-project">
+            <p class="view-project-text"><a href="https://www.figma.com/proto/H9tkukYTrFY97YsxXVsvTf/Wood-cutter-App?node-id=29-8&t=oD9oKFEjRIqXXU0U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">view project</a></p> 
+          </div>
+          <div class="project-info">
+            <h4>Mobile App Design Project</h4>
+            <p>Figma</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more items as needed -->
+    </div>
+    <div class="portfolio-grid">
+      <!-- Portfolio Item -->
+      <div class="portfolio-item">
+        <img src="images/wood-cutter-app.png" alt="Project 1">
+        <div class="overlay">
+          <div class="view-project">
+            <p class="view-project-text"><a href="https://www.figma.com/proto/H9tkukYTrFY97YsxXVsvTf/Wood-cutter-App?node-id=29-8&t=oD9oKFEjRIqXXU0U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">view project</a></p> 
+          </div>
+          <div class="project-info">
+            <h4>Mobile App Design Project</h4>
+            <p>Figma</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more items as needed -->
+    </div>
+     </section>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" data-aos="slide-up" data-aos-duration="1200">
+  <h2>Contact Me</h2>
+  <p>
+    I bring hands-on experience in web development, creative design, and UI/UX mobile app design.  
+    If you’d like to collaborate, feel free to reach out!
+  </p>
+
+  <ul class="contact-list" data-aos="slide-up" data-aos-duration="1200">
+    <li><i class="fas fa-user"></i>Mahadevi</li>
+    <li><i class="fas fa-briefcase"></i> Art&Craft | Creative Designer</li>
+    <li><i class="fas fa-map-marker-alt"></i> 
+      12, Moovaraivendran Samathuvapuram, Nathampatti POST,<br>
+       Watrap TALUK, Virudhunagar, Tamil Nadu - 626138
+    </li>
+    <li><i class="fas fa-envelope"></i> 
+      <a href="mailto:mahadevi2432004@gmail.com">mahadevi2432004@gmail.com</a>
+    </li>
+    <li><i class="fas fa-phone"></i> 
+      <a href="tel:+917010169318">+91 7010169318</a>
+    </li>
+  </ul>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/mahadevi-ramalakshmi-55957528a"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/mahadevi8403"><i class="fab fa-instagram"></i></a>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer id="footer" data-aos="zoom-in" data-aos-duration="1200">
+  <div class="footer-container">
+    <p>Thank you for visiting <a href="#">my portfolio</a> Let’s connect and create something amazing together!</p>
+
+    <p class="footer-copy">&copy; 2025 <a href="#">Mahadevi</a> | All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top">
+  <i class="fa-solid fa-chevron-up"></i></button>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({offset:0});
+  </script>  
+  <script>
+    function hamburg() {
+  const navbar = document.querySelector(".dropdown");
+  navbar.style.transform = "translateY(0)";
+  document.querySelector(".hamburg").style.display = "none";
+  document.querySelector(".cancle").style.display = "block";
+}
+
+function cancle() {
+  const navbar = document.querySelector(".dropdown");
+  navbar.style.transform = "translateY(-100%)";
+  document.querySelector(".hamburg").style.display = "block";
+  document.querySelector(".cancle").style.display = "none";
+}
+
+
+    // Simple typing effect simulation (optional enhancement)
+const typingText = document.querySelector(".typing-text");
+const cursor = document.getElementById("cursor");
+
+let textArray = ["Frontend Developer", "UI/UX Designer"];
+let typingDelay = 100;
+let erasingDelay = 60;
+let newTextDelay = 2000;
+let textIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textIndex].length) {
+    typingText.innerHTML = textArray[textIndex].substring(0, charIndex + 1) + '<span id="cursor">|</span>';
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } else {
+    setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+  if (charIndex > 0) {
+    typingText.innerHTML = textArray[textIndex].substring(0, charIndex - 1) + '<span id="cursor">|</span>';
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } else {
+    textIndex++;
+    if (textIndex >= textArray.length) textIndex = 0;
+    setTimeout(type, typingDelay + 500);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (textArray.length) setTimeout(type, newTextDelay + 250);
+});
+    
+
+  document.querySelectorAll('.circular-skill').forEach(skill => {
+    const percentage = skill.getAttribute('data-percentage');
+    const circle = skill.querySelector('circle:last-child');
+    const offset = 314 - (314 * percentage) / 100;
+    circle.style.strokeDashoffset = offset;
+  });
+
+  //Get the button
+  const backToTopButton = document.getElementById("backToTop");
+
+  //Show the button after scrolling down
+  window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      backToTopButton.style.display = "flex";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  };
+
+  //Scroll to top when clicked
+  backToTopButton.addEventListener("click", ()=> {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  });
+
+  </script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
