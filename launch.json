@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome (Custom Path)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "runtimeExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "url": "file:///c:/Users/HOME/Desktop/myfolio/index.html"
+    }
+  ]
+}
